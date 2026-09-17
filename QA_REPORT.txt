@@ -1,0 +1,19 @@
+VBNA Chapter 11 V6 — Kiểm tra ngày 17/09/2026
+
+Chrome tự động và kiểm tra ảnh giao diện:
+- Trang chủ 1440px/390px, không tràn ngang; 3 HĐSL và 9 Ban.
+- Tìm kiếm hội viên; các trang chính không lỗi JavaScript khi tải.
+- Bill 100.001đ chia 3 người: tổng nghĩa vụ đúng 100.001đ.
+- Thu một phần 10.000đ, phiếu liên kết đúng nghĩa vụ.
+- Tri ân 10% phí mới: giảm 300.000đ, còn 4.200.000đ.
+- .xlsx mở được bằng kiểm tra độc lập; nhiều sheet, bộ lọc, hàng cố định.
+- Lưu cài đặt; đăng bài đào tạo; popup một lần khi chuyển trang.
+- Hội viên nhận xác nhận đúng số tiền thực nhận.
+- Hội viên thường không xem được sổ quỹ/chi tiết tài chính; khách chưa đăng nhập được đưa về đăng nhập.
+- QR ở trang Meeting và bản in.
+- Upload nền Lucky Draw; hai lượt quay không lặp người trúng.
+
+Giới hạn:
+- Phân quyền kiểm tra ở ứng dụng chạy thử, chưa có RLS/API/session production.
+- Không kiểm thử phát nhạc YouTube ngoài mạng, email thật, nhiều máy, DNS, Supabase/PostgreSQL hay private storage.
+- Không khẳng định 132 đầu mục đã nghiệm thu. Phần kế thừa và phần còn thiếu ghi trong README/đối chiếu yêu cầu.
